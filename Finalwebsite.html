@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woman Dancing</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        .dance-container {
+            text-align: center;
+        }
+
+        .dancing-woman {
+            width: 1000px;
+            height: 500px;
+            animation: dance 5s infinite;
+        }
+
+        @keyframes dance {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dance-container">
+        <img class="dancing-woman" src="C:\Users\Richa\Desktop\Dancing woman website\final gif.gif">
+    </div>
+
+</body>
+</html>
